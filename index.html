@@ -26,73 +26,166 @@
     </style>
 </head>
 <body>
-    <!-- navigation bar -->
-    <nav class="mx-60 ">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Hone</a></li>
-                  <li>
-                    <a>Services</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
+    <!-- header section -->
+    <header>
+        <!-- navigation bar -->
+        <nav class="mx-60 ">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Hone</a></li>
+                    <li>
+                        <a>Services</a>
+                        <ul class="p-2">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Item 3</a></li>
                     </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
+                </div>
+                <img src="./images/logo2.png" alt="" class="h-11">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li tabindex="0">
+                    <details>
+                        <summary>Services</summary>
+                        <ul class="p-2">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                        </ul>
+                    </details>
+                    </li>
+                    <li tabindex="0">
+                    <details>
+                        <summary>Cases</summary>
+                        <ul class="p-2">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                        </ul>
+                    </details>
+                    </li>
+                    <li tabindex="0">
+                    <details>
+                        <summary>Blogs</summary>
+                        <ul class="p-2">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                        </ul>
+                    </details>
+                    </li>
+                    <li tabindex="0">
+                    <details>
+                        <summary>Contact Us</summary>
+                        <ul class="p-2">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                        </ul>
+                    </details>
+                    </li>
                 </ul>
+                </div>
+                <div class="navbar-end">
+                <a class="btn capitalize primary-bg text-white">Free Consultation</a>
+                </div>
+            </div>
+        </nav>
+        <!-- hero section -->
+        <div class="mt-12 mx-60 ">
+            <div class="hero max-w-full h-96 " style="background-image: url('./images/banner.png'); background-size: contain; border-radius:1rem;">
+                <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-xl">
+                    <h1 class="mb-5 text-5xl font-bold primary-font">We Provide Effective <br>Legal Solutions</h1>
+                    <p class="mb-5 text-base font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="mt-7 flex gap-4 justify-center">
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                        <button class="btn capitalize primary-bg text-white border-0">Search</button>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <img src="./images/logo2.png" alt="" class="h-11">
+        </div>
+    </header>
+    <!-- main section -->
+    <main>
+        <!-- legal practice area -->
+        <div class="mt-32 mx-60">
+            <div class="grid grid-cols-3 gap-0" >
+                <!-- Card 1  -->
+                <div class=" bg-base-100  flex flex-col justify-center items-center space-y-5 py-10 px-8 border-solid border-b border-[#E7E7E7]">
+                    <div>
+                        <img src="./images/business.png" alt="">
+                    </div>
+                    <h2 class="primary-font text-3xl">Business Law</h2>
+                    <p class="font-light text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="">
+                        <img src="./images/Frame.png" alt="">
+                    </div>    
+                </div>
+                <!-- Card 2  -->
+                <div class=" bg-base-100  flex flex-col justify-center items-center space-y-5 py-10 px-8  border-solid border border-[#E7E7E7]">
+                    <div>
+                        <img src="./images/business.png" alt="">
+                    </div>
+                    <h2 class="primary-font text-3xl">Business Law</h2>
+                    <p class="font-light text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="">
+                        <img src="./images/Frame.png" alt="">
+                    </div>    
+                </div>
+                <!-- Card 3  -->
+                <div class=" bg-base-100  flex flex-col justify-center items-center space-y-5 py-10 px-8 border-solid border-b border-[#E7E7E7]">
+                    <div>
+                        <img src="./images/business.png" alt="">
+                    </div>
+                    <h2 class="primary-font text-3xl">Business Law</h2>
+                    <p class="font-light text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="">
+                        <img src="./images/Frame.png" alt="">
+                    </div>    
+                </div>
+                <!-- Card 4 -->
+                <div class=" bg-base-100  flex flex-col justify-center items-center space-y-5 py-10 px-8 ">
+                    <div>
+                        <img src="./images/business.png" alt="">
+                    </div>
+                    <h2 class="primary-font text-3xl">Business Law</h2>
+                    <p class="font-light text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="">
+                        <img src="./images/Frame.png" alt="">
+                    </div>    
+                </div>
+                <!-- Card 5  -->
+                <div class=" bg-base-100  flex flex-col justify-center items-center space-y-5 py-10 px-8 border-solid border-r border-l border-[#E7E7E7]">
+                    <div>
+                        <img src="./images/business.png" alt="">
+                    </div>
+                    <h2 class="primary-font text-3xl">Business Law</h2>
+                    <p class="font-light text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="">
+                        <img src="./images/Frame.png" alt="">
+                    </div>    
+                </div>
+                <!-- Card 1  -->
+                <div class=" bg-base-100  flex flex-col justify-center items-center space-y-5 py-10 px-8">
+                    <div>
+                        <img src="./images/business.png" alt="">
+                    </div>
+                    <h2 class="primary-font text-3xl">Business Law</h2>
+                    <p class="font-light text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="">
+                        <img src="./images/Frame.png" alt="">
+                    </div>    
+                </div>
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
-                <li tabindex="0">
-                  <details>
-                    <summary>Services</summary>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </details>
-                </li>
-                <li tabindex="0">
-                  <details>
-                    <summary>Cases</summary>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </details>
-                </li>
-                <li tabindex="0">
-                  <details>
-                    <summary>Blogs</summary>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </details>
-                </li>
-                <li tabindex="0">
-                  <details>
-                    <summary>Contact Us</summary>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </details>
-                </li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-              <a class="btn capitalize primary-bg text-white">Free Consultation</a>
-            </div>
-          </div>
-    </nav>
+        </div>
+    </main>
 </body>
 </html> 
