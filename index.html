@@ -27,13 +27,13 @@
 </head>
 <body>
     <!-- header section -->
-    <header>
+    <header class="">
         <!-- navigation bar -->
         <nav class="mx-60 ">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                 <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <label tabindex="0" class="btn btn-ghost lg:">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -50,7 +50,7 @@
                 </div>
                 <img src="./images/logo2.png" alt="" class="h-11">
                 </div>
-                <div class="navbar-center hidden lg:flex">
+                <div class="navbar-center  lg:flex">
                 <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
                     <li tabindex="0">
@@ -105,7 +105,7 @@
                     <h1 class="mb-5 text-5xl font-bold primary-font">We Provide Effective <br>Legal Solutions</h1>
                     <p class="mb-5 text-base font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     <div class="mt-7 flex gap-4 justify-center">
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full " />
                         <button class="btn capitalize primary-bg text-white border-0">Search</button>
                     </div>
                   </div>
@@ -116,7 +116,9 @@
     <!-- main section -->
     <main>
         <!-- legal practice area -->
-        <div class="mt-32 mx-60">
+        <div class="mt-32 mx-60 space-y-12 ">
+            <h2 class="primary-font text-center text-4xl">The Legal Practice Area</h2>
+            <p class="text-center text-base font-thin">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
             <div class="grid grid-cols-3 gap-0" >
                 <!-- Card 1  -->
                 <div class=" bg-base-100  flex flex-col justify-center items-center space-y-5 py-10 px-8 border-solid border-b border-[#E7E7E7]">
@@ -186,6 +188,82 @@
                 </div>
             </div>
         </div>
+        <!-- frequently asked question -->
+        <div class="mx-60 space-y-12 mt-32">
+            <h2 class="primary-font text-center text-4xl">Frequently Asked Any Questions</h2>
+            <p class="text-center text-base font-thin">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
+        </div>
     </main>
+
+    <!-- contact with us -->
+    <div class="mx-60 space-y-12 mt-32">
+        <h2 class="primary-font text-center text-4xl">Contact With Us</h2>
+        <p class="text-center text-base font-thin">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
+        <div class="flex  gap-6">
+            <div class="grid grid-cols-2 ">
+                <!-- card 1  -->
+                <div class="space-y-4 flex flex-col items-center bg-[#F3F3F3] px-10 py-9 border-solid border-r border-[#E7E7E7]">
+                    <div>
+                        <img src="./images/location.png" alt="">
+                    </div>
+                    <p class="primary-font text-2xl">Address</p>
+                    <div>
+                        <p class="text-center">A108 Adam Street,
+                        <br> New York, NY 535022</p>
+                    </div>
+                </div>
+                <!-- card 1  -->
+                <div class="space-y-4 flex flex-col items-center bg-[#F3F3F3] px-10 py-9">
+                    <div>
+                        <img src="./images/location.png" alt="">
+                    </div>
+                    <p class="primary-font text-2xl">Address</p>
+                    <div>
+                        <p class="text-center">A108 Adam Street,
+                        <br> New York, NY 535022</p>
+                    </div>
+                </div>
+                <!-- card 1  -->
+                <div class="space-y-4 flex flex-col items-center bg-[#F3F3F3] px-10 py-9 border-solid border-r border-t border-[#E7E7E7] ">
+                    <div>
+                        <img src="./images/location.png" alt="">
+                    </div>
+                    <p class="primary-font text-2xl">Address</p>
+                    <div>
+                        <p class="text-center">A108 Adam Street,
+                        <br> New York, NY 535022</p>
+                    </div>
+                </div>
+                <!-- card 1  -->
+                <div class="space-y-4 flex flex-col items-center bg-[#F3F3F3] px-10 py-9 border-solid border-t border-[#E7E7E7]">
+                    <div>
+                        <img src="./images/location.png" alt="">
+                    </div>
+                    <p class="primary-font text-2xl">Address</p>
+                    <div>
+                        <p class="text-center">A108 Adam Street,
+                        <br> New York, NY 535022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-rows-6 gap-7">
+                <div>
+                    <input type="text" placeholder="Type here" class="input input-bordered w-full border-0 bg-[#F3F3F3]" />
+                </div>
+                <div>
+                    <input type="text" placeholder="Type here" class="input input-bordered w-full border-0 bg-[#F3F3F3]" />
+                </div>
+                <div>
+                    <input type="text" placeholder="Type here" class="input input-bordered w-full border-0 bg-[#F3F3F3]" />
+                </div>
+                <div class="row-span-2">
+                    <textarea name="" id="" cols="25" rows="5" placeholder="    your details" class="bg-[#F3F3F3] rounded-md"></textarea>
+                </div>
+                <div>
+                    <input type="submit" placeholder="Type here" class="input input-bordered w-full border-0 bg-[#F3F3F3]" />
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html> 
