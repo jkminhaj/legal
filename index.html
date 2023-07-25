@@ -29,11 +29,11 @@
     <!-- header section -->
     <header class="">
         <!-- navigation bar -->
-        <nav class="mx-60 ">
+        <nav class="lg:mx-60">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:">
+                <div class="dropdown lg:hidden">
+                    <label tabindex="0" class="btn btn-ghost">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -48,9 +48,9 @@
                     <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <img src="./images/logo2.png" alt="" class="h-11">
+                <img src="./images/logo2.png" alt="" class="h-11  lg:block">
                 </div>
-                <div class="navbar-center  lg:flex">
+                <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
                     <li tabindex="0">
@@ -92,19 +92,19 @@
                 </ul>
                 </div>
                 <div class="navbar-end">
-                <a class="btn capitalize primary-bg text-white">Free Consultation</a>
+                <a class="btn capitalize primary-bg text-white hidden lg:flex">Free Consultation</a>
                 </div>
             </div>
         </nav>
         <!-- hero section -->
-        <div class="mt-12 mx-60 ">
-            <div class="hero max-w-full h-96 " style="background-image: url('./images/banner.png'); background-size: contain; border-radius:1rem;">
+        <div class="mt-12 lg:mx-60 ">
+            <div class="hero max-w-[80%] m-auto lg:max-w-full h-72 lg:h-96 " style="background-image: url('./images/banner.png'); background-size: contain; border-radius:1rem;">
                 <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-xl">
-                    <h1 class="mb-5 text-5xl font-bold primary-font">We Provide Effective <br>Legal Solutions</h1>
-                    <p class="mb-5 text-base font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    <div class="mt-7 flex gap-4 justify-center">
+                    <h1 class="mb:3 lg:mb-5 text-2xl lg:text-5xl font-bold primary-font">We Provide Effective <br>Legal Solutions</h1>
+                    <p class="mb:3 lg:mb-5 text-sm lg:text-base font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="mt-4 lg:mt-7 flex gap-4 justify-center">
                         <input type="text" placeholder="Type here" class="input input-bordered w-full " />
                         <button class="btn capitalize primary-bg text-white border-0">Search</button>
                     </div>
@@ -116,10 +116,10 @@
     <!-- main section -->
     <main>
         <!-- legal practice area -->
-        <div class="mt-32 mx-60 space-y-12 ">
+        <div class="mt-32 lg:mx-60 space-y-12 ">
             <h2 class="primary-font text-center text-4xl">The Legal Practice Area</h2>
             <p class="text-center text-base font-thin">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
-            <div class="grid grid-cols-3 gap-0" >
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-0" >
                 <!-- Card 1  -->
                 <div class=" bg-base-100  flex flex-col justify-center items-center space-y-5 py-10 px-8 border-solid border-b border-[#E7E7E7]">
                     <div>
@@ -189,10 +189,10 @@
             </div>
         </div>
         <!-- frequently asked question -->
-        <div class="mx-60 space-y-12 mt-32">
+        <div class="lg:mx-60 space-y-12 mt-32">
             <h2 class="primary-font text-center text-4xl">Frequently Asked Any Questions</h2>
             <p class="text-center text-base font-thin">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
-            <div class="flex gap-8">
+            <div class="flex flex-col lg:flex-row  gap-8">
                 <div class="space-y-8">
                     <div class="collapse collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -239,10 +239,10 @@
     </main>
 
     <!-- contact with us -->
-    <div class="mx-60 space-y-12 mt-32">
+    <div class="lg:mx-60 space-y-12 mt-32">
         <h2 class="primary-font text-center text-4xl">Contact With Us</h2>
         <p class="text-center text-base font-thin">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
-        <div class="flex  gap-6">
+        <div class="flex flex-col lg:flex-row gap-6">
             <div class="grid grid-cols-2 ">
                 <!-- card 1  -->
                 <div class="space-y-4 flex flex-col items-center bg-[#F3F3F3] px-10 py-9 border-solid border-r border-[#E7E7E7]">
